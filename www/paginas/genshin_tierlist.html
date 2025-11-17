@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>InfoGamerWeb - Genshin Impact Tier List</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="./css/estilos.css" />
+  <link rel="icon" type="image/png" href="../assets/favicon.ico" />
+</head>
+<body class="flex flex-col border-black min-h-dvh bg-gradient-to-b from-teal-950 via-sky-950 to-gray-700 p-4">
+  <!-- HEADER -->
+  <header class="text-white">
+    <header class="flex flex-col items-center gap-2 p-4">
+      <img
+        id="logo-picture"
+        src="../assets/info-gamer-logo.png"
+        alt="Logo de Info Gamer Web"
+        class="w-32 h-32 rounded-full border-4 border-white shadow-lg object-cover"
+      />
+      <h1 class="text-3xl font-bold">Info Gamer Web</h1>
+      <p class="text-center">Tier list interactiva de personajes de Genshin Impact</p>
+    </header>
+
+    <!-- BARRA SUPERIOR (mismo estilo que otras páginas) -->
+    <section class="flex gap-4 p-2 justify-center">
+      <a
+        class="bg-white p-2 size-12 flex items-center justify-center rounded-full hover:scale-105 transition-transform"
+        href="../index.html"
+        title="Volver al inicio"
+      >
+        🏠
+      </a>
+      <a
+        class="bg-white p-2 size-12 flex items-center justify-center rounded-full hover:scale-105 transition-transform"
+        href="./guides.html"
+        title="Guias"
+      >
+        📚
+      </a>
+    </section>
+  </header>
+
+  <!-- CONTENIDO PRINCIPAL -->
+  <main class="flex-1 flex justify-center mt-4">
+    <div
+      class="w-full max-w-6xl bg-black/40 rounded-3xl p-6 shadow-2xl border border-white/20 flex flex-col gap-4"
+    >
+      <header class="text-white mb-2 text-center">
+        <h2 class="text-2xl md:text-3xl font-bold mb-1">
+          Tier List de Genshin Impact
+        </h2>
+        <p class="text-sm md:text-base">
+          Arrastra los personajes desde la fila <span class="font-semibold">“Personajes”</span>
+          hasta el rango que quieras (S, A, B, C). Los cambios se guardan en tu API NestJS.
+        </p>
+      </header>
+
+      <!-- Controles (por si luego quieres filtros/búsquedas) -->
+      <section
+        class="w-full mb-4 flex flex-wrap gap-4 justify-center items-center bg-white/10 rounded-xl p-3"
+      >
+        <span class="text-white text-sm md:text-base">
+          Tip: si algo se rompe, siempre puedes volver a poner todo en el tier “Personajes” desde la base de datos 😎
+        </span>
+      </section>
+
+      <!-- CONTENEDOR DE LA TIERLIST -->
+      <section
+        id="tierlist-container"
+        class="flex flex-col gap-3 text-white"
+      >
+        <!-- Las filas de tiers se construyen desde JS -->
+      </section>
+    </div>
+  </main>
+
+  <script src="./js/genshin_tierlist.js"></script>
+</body>
+</html>

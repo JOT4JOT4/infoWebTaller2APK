@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>InfoGamerWeb - Monster Hunter</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="./css/estilos.css">
+  <link rel="icon" type="image/png" href="../assets/favicon.ico">
+</head>
+<body class="flex flex-col border-black min-h-dvh bg-gradient-to-b from-teal-950 via-sky-950 to-gray-700 p-4">
+  <header class="text-white">
+    <header class="flex flex-col items-center gap-2 p-4">
+      <img id="logo-picture" src="../assets/info-gamer-logo.png" alt="Logo de InfoGamerWeb" class="logo-picture mask-radial-at-center mask-radial-from-45% mask-radial-to-60%"/>
+      <h1 class="text-3xl font-bold">Info Gamer Web</h1>
+      <p class="text-center">Tu fuente de confianza para los mejores consejos</p>
+    </header>
+    <section class="flex gap-4 p-2 justify-center">
+      <a class="bg-white p-2 size-12 flex items-center justify-center rounded-full hover:scale-105 transition-transform" href="https://www.twitch.tv/illojuan" target="_blank" aria-label="Twitch" title=" Ir a Twitch">
+         <img src="../assets/twitch.png" alt="Twitch" class="w-8 h-8 object-contain">
+      </a> 
+         <a class="bg-white p-2 size-12 flex items-center justify-center rounded-full hover:scale-105 transition-transform" href="https://www.youtube.com/watch?v=6YsNRnZRgg8&list=RD6YsNRnZRgg8&start_radio=1" target="_blank" aria-label="YouTube" title=" Ir a YouTube">
+      <img src="../assets/youtube.png" alt="YouTube" class="w-10 h-10 object-contain">
+         </a>
+      <a class="bg-white p-2 size-12 flex items-center justify-center rounded-full hover:scale-105 transition-transform" href="https://www.instagram.com/reel/DFk8pN9TiRH/?igsh=cWNxOW95cWZmdjhr" target="_blank" aria-label="Instagram" title=" Ir a Instagram">
+         <img src="../assets/instagram.png" alt="Instagram" class="w-8 h-8 object-contain">
+      </a>
+    </section>
+  </header>
+  <div class="main-content">
+    <nav class="flex justify-center gap-4 mb-6">
+      <a href="../index.html" class="text-white hover:underline">Inicio</a>
+      <a href="./steamcheaps.html" class="text-white hover:underline">Ofertas</a>
+      <a href="./guides.html" class="text-white hover:underline">Guias</a>
+    </nav>
+    <div class="flex flex-col gap-2 items-center">
+        <h2 class="text-white font-bold text-2xl mb-4">Info Monster Hunter</h2>
+        <section class="flex gap-6 p-4 justify-center flex-wrap">
+            <a class="bg-blue-200 hover:bg-blue-300 transition-colors rounded-xl shadow-lg p-6 flex flex-col items-center w-64" href="./monsterhunter_monsters.html">
+                <img src="../assets/guides/monsterhunter.jpg" alt="Datos Monstruos" class="h-32 w-48 object-cover rounded-lg mb-2"/>
+                <span class="text-blue-900 font-bold text-lg">Datos Monstruos</span>
+                <p class="text-gray-700 text-center mt-2">Consulta información y estadísticas de los monstruos.</p>
+            </a>
+            <a class="bg-green-200 hover:bg-green-300 transition-colors rounded-xl shadow-lg p-6 flex flex-col items-center w-64" href="./fatalis_tips.html">
+                <img src="../assets/guides/Fatalis.jpg" alt="Guía contra ..." class="h-32 w-48 object-cover rounded-lg mb-2"/>
+                <span class="text-green-900 font-bold text-lg">Consejos contra Fatalis</span>
+                <p class="text-gray-700 text-center mt-2">Estrategias y consejos para vencer a un monstruo específico.</p>
+            </a>
+        </section>
+    </div>
+</body>
+</html>

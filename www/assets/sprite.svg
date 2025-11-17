@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="display: none;">
+
+    <!-- Twitch logo -->
+    <symbol id="twitch" viewBox="0 0 48 48">
+        <path fill="#7e57c2" d="M42,27.676c-3,3.441-6,6.882-9,10.324c-2.333,0-4.667,0-7,0c-2.333,2-4.667,4-7,6c-1,0-2,0-3,0	c0-2,0-4,0-6c-3.333,0-6.667,0-10,0c0-7.431,0-14.863,0-22.294C7.455,12.804,8.909,9.902,10.364,7C20.909,7,31.455,7,42,7	C42,13.892,42,20.784,42,27.676z"></path>
+        <path fill="#fafafa" d="M39,26.369c-1.667,1.877-3.333,3.754-5,5.631c-2.333,0-4.667,0-7,0c-2.333,2-4.667,4-7,6c0-2,0-4,0-6	c-2.667-0.008-5.333-0.016-8-0.024c0-7.326,0-14.651,0-21.976c9,0,18,0,27,0C39,15.456,39,20.912,39,26.369z"></path>
+        <rect width="3" height="10" x="21" y="16" fill="#7e57c2"></rect><rect width="3" height="10" x="30" y="16" fill="#7e57c2"></rect>
+    </symbol>
+
+    <!-- YouTube logo -->
+    <symbol id="youtube" viewBox="0 0 48 48">
+        <path fill="#FF3D00" d="M43.2,33.9c-0.4,2.1-2.1,3.7-4.2,4c-3.3,0.5-8.8,1.1-15,1.1c-6.1,0-11.6-0.6-15-1.1c-2.1-0.3-3.8-1.9-4.2-4C4.4,31.6,4,28.2,4,24c0-4.2,0.4-7.6,0.8-9.9c0.4-2.1,2.1-3.7,4.2-4C12.3,9.6,17.8,9,24,9c6.2,0,11.6,0.6,15,1.1c2.1,0.3,3.8,1.9,4.2,4c0.4,2.3,0.9,5.7,0.9,9.9C44,28.2,43.6,31.6,43.2,33.9z"></path>
+        <path fill="#FFF" d="M20 31L20 17 32 24z"></path>
+    </symbol>
+    
+
+    <!-- Instagram logo -->
+    <symbol id="instagram" viewBox="0 0 48 48">
+        <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#feda75;stop-opacity:1" />
+            <stop offset="20%" style="stop-color:#fa7e1e;stop-opacity:1" />
+            <stop offset="40%" style="stop-color:#d62976;stop-opacity:1" />
+            <stop offset="60%" style="stop-color:#962fbf;stop-opacity:1" />
+            <stop offset="80%" style="stop-color:#4f5bd5;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#4f5bd5;stop-opacity:1" />
+        </linearGradient>
+        <path fill="url(#grad1)" d="M34,7H14C9.029,7,5,11.029,5,16v18c0,4.971,4.029,9,9,9h20c4.971,0,9-4.029,9-9V16C43,11.029,38.971,7,34,7z M24,32c-4.411,0-8-3.589-8-8s3.589-8,8-8s8,3.589,8,8S28.411,32,24,32z M34.5,14c-1.104,0-2-0.896-2-2s0.896-2,2-2s2,0.896,2,2S35.604,14,34.5,14z"></path>
+        <circle fill="#fafafa" cx="24" cy="24" r="6"></circle>
+    </symbol>
+
+</svg>

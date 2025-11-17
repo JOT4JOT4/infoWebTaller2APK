@@ -1,0 +1,30 @@
+/* Responsive offers section */
+.offers-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+.offer-card {
+    width: 100%;
+    max-width: 320px;
+}
+@media (min-width: 600px) {
+    .offer-card {
+        width: 45%;
+    }
+
+    logo-picture {
+        height: 20vh;
+    }
+
+}
+@media (min-width: 900px) {
+    .offer-card {
+        width: 22%;
+    }
+
+    #logo-picture {
+        height: 60vh;
+    }
+}

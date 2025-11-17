@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>InfoGamerWeb</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="./css/ofertas_estilos.css">
+  <link rel="icon" type="image/png" href="../assets/favicon.ico">
+</head>
+<body class="flex flex-col border-black min-h-dvh bg-gradient-to-b from-teal-950 via-sky-950 to-gray-700 p-4">
+  <header class="text-white">
+    <header class="flex flex-col items-center gap-2 p-4">
+      <img id="logo-picture" src="../assets/info-gamer-logo.png" alt="Logo de InfoGamerWeb" class="logo-picture mask-radial-at-center mask-radial-from-45% mask-radial-to-60%"/>
+      <h1 class="text-3xl font-bold">Info Gamer Web Sales</h1>
+      <p class="text-center">Aquí encontrarás las mejores ofertas de Steam</p>
+    </header>
+    <section class="flex gap-4 p-2 justify-center">
+      <a class="bg-white p-2 size-12 flex items-center justify-center rounded-full hover:scale-105 transition-transform" href="https://www.twitch.tv/illojuan" target="_blank" aria-label="Twitch" title=" Ir a Twitch">
+         <img src="../assets/twitch.png" alt="Twitch" class="w-8 h-8 object-contain">
+      </a> 
+         <a class="bg-white p-2 size-12 flex items-center justify-center rounded-full hover:scale-105 transition-transform" href="https://www.youtube.com/watch?v=6YsNRnZRgg8&list=RD6YsNRnZRgg8&start_radio=1" target="_blank" aria-label="YouTube" title=" Ir a YouTube">
+      <img src="../assets/youtube.png" alt="YouTube" class="w-10 h-10 object-contain">
+         </a>
+      <a class="bg-white p-2 size-12 flex items-center justify-center rounded-full hover:scale-105 transition-transform" href="https://www.instagram.com/reel/DFk8pN9TiRH/?igsh=cWNxOW95cWZmdjhr" target="_blank" aria-label="Instagram" title=" Ir a Instagram">
+         <img src="../assets/instagram.png" alt="Instagram" class="w-8 h-8 object-contain">
+      </a>
+    </section>
+  </header>
+  <div class="main-content">
+    <nav class="flex justify-center gap-4 mb-6">
+      <a href="../index.html" class="text-white hover:underline">Inicio</a>
+      <a href="#" class="text-white hover:underline">Ofertas</a>
+      <a href="./guides.html" class="text-white hover:underline">Guias</a>
+    </nav>
+    <div class="flex flex-col gap-2">
+      <h2 class="text-white font-bold">Ofertas Actuales</h2>
+      <section id="section-offert" class="offers-section flex gap-2 p-4 justify-center flex-wrap">
+        <!-- Las ofertas se cargarán aquí dinámicamente -->
+      </section>
+    </div>
+  </div>
+  <script src="./js/steam_sales.js"></script>
+</body>
+</html>
